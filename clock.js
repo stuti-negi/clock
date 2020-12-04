@@ -17,6 +17,7 @@ function time()
 
 
 	var t;
+	t=hours +":"+min+":"+sec;
 	if (hours<10&&min<10&&sec<10)
 	{
 		t="0"+hours +":0"+min+":0"+sec;
